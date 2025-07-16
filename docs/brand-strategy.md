@@ -14,7 +14,7 @@
 3. **[Liking]**: [Give background in the medical/medicinal industry. Heartfelt mission statement, and revolving personal stories from satisfied customers.]
 
 ## Value Proposition
-[One clear sentence explaining your unique benefit]
+[We aim to help out all sorts of people, to making finiding medicine and treatment easier.]
 
 ## Key Messages
 - Headline: [Confused by the shelf? Ask for help!]
