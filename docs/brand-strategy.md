@@ -18,5 +18,5 @@
 
 ## Key Messages
 - Headline: [Confused by the shelf? Ask for help!]
-- Subtext: [Supporting information]
-- CTA: [What action you want users to take]
+- Subtext: [Finding medcicine and treatments to help you shouldn't be as complicated. With our help you'll be given several options including price estimation. Simply type in your symptoms/illness and we'll send you in the right direction.]
+- CTA: [Take control of your health today, with an Apple-A-Day]

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apple-A-Day Style Guide</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f4f1ee; /* Earth tone */
+            color: #3e2c23;
+            margin: 2rem;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #7c5c36; /* Earthy brown */
+        }
+        .brand-colors {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        .color-swatch {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            border: 1px solid #bfae99;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            font-size: 0.9rem;
+            color: #fff;
+            padding-bottom: 0.5rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+        .primary { background: #7c5c36; }      /* Earthy brown */
+        .secondary { background: #bfae99; color: #3e2c23; } /* Sand */
+        .accent { background: #a3b18a; color: #3e2c23; }    /* Sage green */
+        .neutral { background: #f4f1ee; color: #3e2c23; border: 1px solid #bfae99; }
+        .error { background: #b85c38; }        /* Clay red */
+        .button {
+            background: #7c5c36;
+            color: #fff;
+            border: none;
+            padding: 0.75em 1.5em;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .button:hover {
+            background: #5c4326;
+        }
+        .typography-sample {
+            margin-bottom: 2rem;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-left: 5px solid #a3b18a;
+        }
+        .archetype, .value-prop, .persuasion, .audience, .messages {
+            margin-bottom: 2rem;
+            padding: 1rem 1.5rem;
+            background: #f9f6f2;
+            border-left: 4px solid #a3b18a;
+        }
+        .messages strong {
+            color: #7c5c36;
+        }
+    </style>
+</head>
+<body>
+    <h1>Apple-A-Day Style Guide</h1>
+    <section>
+        <h2>Brand Colors</h2>
+        <div class="brand-colors">
+            <div class="color-swatch primary">Primary<br>#7c5c36</div>
+            <div class="color-swatch secondary">Secondary<br>#bfae99</div>
+            <div class="color-swatch accent">Accent<br>#a3b18a</div>
+            <div class="color-swatch neutral">Neutral<br>#f4f1ee</div>
+            <div class="color-swatch error">Error<br>#b85c38</div>
+        </div>
+    </section>
+    <section class="archetype">
+        <h2>Brand Archetype</h2>
+        <strong>Caregiver</strong> – My website involves medicine, and being easier to access for all sorts of people. By utilizing AI, you can see the various options for medicine, over and under the counter medicine, for your needs.
+    </section>
+    <section class="audience">
+        <h2>Target Audience</h2>
+        <ul>
+            <li><strong>Primary:</strong> The average person</li>
+            <li><strong>Pain Points:</strong> Finding out what type of medicine they need can be pretty difficult, especially if they don't have insurance.</li>
+            <li><strong>Goals:</strong> Make it easier to find out what medicine you need, and what type of options you have.</li>
+        </ul>
+    </section>
+    <section class="persuasion">
+        <h2>Persuasion Strategy</h2>
+        <ol>
+            <li><strong>Reciprocity:</strong> The service is free, no subscription needed for basic functionality. Premium will be offered for direct messaging line to an expert (doctor/pharmacist, other professional).</li>
+            <li><strong>Social Proof:</strong> Each treatment option will have aggregated data for reviews, secondary reviews/rating will come from website users themselves.</li>
+            <li><strong>Liking:</strong> Give background in the medical/medicinal industry. Heartfelt mission statement, and revolving personal stories from satisfied customers.</li>
+        </ol>
+    </section>
+    <section class="value-prop">
+        <h2>Value Proposition</h2>
+        We aim to help out all sorts of people, to make finding medicine and treatment easier.
+    </section>
+    <section class="messages">
+        <h2>Key Messages</h2>
+        <ul>
+            <li><strong>Headline:</strong> Confused by the shelf? Ask for help!</li>
+            <li><strong>Subtext:</strong> Finding medicine and treatments to help you shouldn't be as complicated. With our help you'll be given several options including price estimation. Simply type in your symptoms/illness and we'll send you in the right direction.</li>
+            <li><strong>CTA:</strong> Take control of your health today, with an Apple-A-Day</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Typography</h2>
+        <div class="typography-sample">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <p>Body text example. Apple-A-Day helps you find the right medicine easily and safely.</p>
+            <a href="#">Sample Link</a>
+        </div>
+    </section>
+    <section>
+        <h2>Buttons</h2>
+        <button class="button">Primary Button</button>
+    </section>
+    <section>
+        <h2>Card Example</h2>
+        <div class="card">
+            <h3>Confused by the shelf? Ask for help!</h3>
+            <p>Finding medicine and treatments to help you shouldn't be as complicated. With our help you'll be given several options including price estimation. Simply type in your symptoms/illness and we'll send you in the right direction.</p>
+            <button class="button">Take control of your health today, with an Apple-A-Day</button>
+        </div>
+    </section>
+</body>
+</html>
